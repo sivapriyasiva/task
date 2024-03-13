@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outline {
+  width: 50%;
+  height: 70%;
+  background-color: #fff;
+  box-shadow: 0px 0px 25px 0px cyan;
+  position: relative;
+  overflow: hidden;
+}
+.mouse {
+  width: 5%;
+  height: 6%;
+  background-color: blue;
+  position: absolute;
+  cursor: grab;
+}
